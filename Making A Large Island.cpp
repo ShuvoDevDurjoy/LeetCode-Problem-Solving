@@ -11,11 +11,6 @@ public:
 
     int largestIsland(vector<vector<int>> &grid)
     {
-        // determine the size of row and column in grid
-        // once they are stored in a variable this will
-        // decrease the time complexity by allowing these variable
-        // in for loop condition statement instread of using grid.size()
-        //   each time of iteration
         rowSize = grid.size();
         columnSize = grid[0].size();
 
